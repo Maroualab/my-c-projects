@@ -6,10 +6,10 @@
       "type": "shell",
       "command": "gcc",
       "args": [
-        "-o", "myprogram",
-        "src/main.c",
-        "src/library.c",
-        "-Iinclude"
+        "-o", "myprogram",            // Output file name
+        "library/src/main.c",         // Source file in the library/src folder
+        "library/src/library.c",      // Source file in the library/src folder
+        "-Ilibrary/include"  
       ],
       "group": {
         "kind": "build",
