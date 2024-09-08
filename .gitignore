@@ -1,0 +1,5 @@
+myprogram
+*.o
+*.exe
+*.out
+*.log
